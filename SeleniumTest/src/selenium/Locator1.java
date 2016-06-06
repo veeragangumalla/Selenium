@@ -10,6 +10,7 @@ public class Locator1 {
 		WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.facebook.com/"); 
 		driver.getTitle();
+		System.out.println("test 1");
 		//driver.findElement(By.xpath(".//*[@id='pagenav']/ul/li[2]/a"));
 		driver.findElement(By.id("email")).sendKeys("satish.gangumalla");
 		driver.findElement(By.id("pass")).sendKeys("Lasanmes1.,");
